@@ -2,7 +2,8 @@
 
 ##Overview
 
-A Song Recommender using item-item collaborative filtering, and user-item collaborative filtering for the aforementioned Dataset.
+This is a text classification Problem.Install the dependencies specified in the List. Please Go through the IPython Notebook in the Repo it gives an Explanation of my approach.
+Achieved a 60% Accuray on the Test Dataset(Accuracy can be increased if the DataSet Provided was LARGER IN SIZE)
 
 ##Dependencies
 
@@ -13,4 +14,5 @@ A Song Recommender using item-item collaborative filtering, and user-item collab
 
 ##Usage
 
-Run Demonstrate.py .This will Print the Recommendations for a particular user(change line num 41 in Demonstrate.py for a different user)
+Run Niki_Assignment.py 
+NOTE-change PATH OF DATASET TO That on your computer (Line 32)
