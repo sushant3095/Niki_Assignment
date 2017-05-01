@@ -250,7 +250,7 @@ results.append(benchmark(SGDClassifier(alpha=.001, n_iter=50,penalty="elasticnet
 # In[12]:
 
 # make some plots
-'''
+
 np.seterr(divide='ignore', invalid='ignore')
 indices = np.arange(len(results))
 
@@ -276,4 +276,4 @@ for i, c in zip(indices, clf_names):
     plt.text(-.3, i, c)
 
 plt.show()
-'''
+
